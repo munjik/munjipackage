@@ -13,5 +13,5 @@ setup(name='munjipackage',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/munjipackage-run'],
+      scripts=['scripts/munjipackage-run', 'scripts/munjipackage-first-script'],
       zip_safe=False)
